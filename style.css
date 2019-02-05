@@ -111,6 +111,10 @@
         margin-right: 20px;
     }
 
+    .carousel-cell img {
+        border-radius: 5px;
+    }
+
     .flickity-page-dots .dot.is-selected {
         background: white;
     }
@@ -132,7 +136,8 @@
     }
 
     /* to-top-button
-------------------------- */
+
+    ------------------------- */
     #myBtn {
         display: none;
         position: fixed;
