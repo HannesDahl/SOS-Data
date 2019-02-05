@@ -101,6 +101,9 @@
     }
 
     /*Carousel*/
+    .main-carousel {
+        margin-top: 26px;
+    }
 
     .flickity-enabled:focus .flickity-viewport {
         outline: thin dotted;
@@ -158,15 +161,15 @@
     .text-background {
         /* border-top: #5cbeeb solid 0.06px; */
         background-color: #f8f9fa;
-        border: solid 0.06px gray;
+        border: solid 0.2px gray;
         border-radius: 5px;
         border-top-right-radius: 25px;
         height: 120px;
-        width: 50%;
+        width: 100%;
         display: flex;
         justify-content: center;
         margin-top: 60px;
-        margin-left: 17em;
+        margin-right: 6em;
         padding-bottom: 20px;
     }
 
@@ -177,7 +180,7 @@
 
     .p-info {
         text-align: center;
-        color: rgb(59, 59, 59);
+        color: rgb(100, 100, 100);
         padding-top: 20px;
 
         line-height: 24px;
