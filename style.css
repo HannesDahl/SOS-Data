@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 body,
 html {
     height: 100%;
@@ -249,6 +255,33 @@ h3 {
 }
 
 /* CONTACT */
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(Images/writing-pad-3202747_1920.jpg);
+    background-size: cover;
+    height: 100%;
+    line-height: 2;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+/*---FOOTER---*/
+
+#partners {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-img {
+    max-width: 200px;
+}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
