@@ -223,10 +223,10 @@ html {
     min-height: 400px;
 }
 
-/* .bgimg-3 {
-    background-image: url("img_parallax3.jpg");
+.bgimg-3 {
+    background-image: url("Images/writing-1149962_1920.jpg");
     min-height: 400px;
-} */
+}
 
 .caption {
     position: absolute;
