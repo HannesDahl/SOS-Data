@@ -70,7 +70,7 @@
 
     <div id="contact">
 
-        <h2>Kontakt</h2>
+        <h2><u>Kontakt</u></h2>
 
         <ul>
             <li>SOS DATA Ab Oy</li>
@@ -85,7 +85,31 @@
             <li><i class="fas fa-phone-square"></i> <b>Moha</b>: 0445078685 / 0445078684</li>
             <li><i class="fas fa-phone-square"></i> <b>Stephen</b>: 0447697574</li>
         </ul>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary ml-5" data-toggle="modal" data-target="#exampleModal">
+            Skanna QR Code <i class="fas fa-qrcode"></i>
+        </button>
 
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"> QR code</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body m-auto">
+                        <img src="images/api.qrserver.com.png" alt="QR">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Stäng</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 

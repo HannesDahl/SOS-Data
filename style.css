@@ -262,7 +262,7 @@ h3 {
     flex-direction: column;
     background: url(Images/writing-pad-3202747_1920.jpg);
     background-size: cover;
-    height: 100%;
+    height: 100vh;
     line-height: 2;
 }
 
@@ -325,6 +325,26 @@ h3 {
 
 /* RESPONSIVE CSS
   -------------------------------------------------- */
+@media (min-width: 1270px) {
+
+    #contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: url(Images/writing-pad-3202747_1920.jpg);
+        background-size: cover;
+        height: 100vh;
+        line-height: 2;
+    }
+
+    #contact ul {
+        list-style: none;
+        font-size: 0.9em;
+        margin-left: 57px;
+    }
+
+}
 
 @media (min-width: 40em) {
 
