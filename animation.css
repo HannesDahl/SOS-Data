@@ -3,13 +3,15 @@
     -webkit-animation-name: slideRight;
     animation-duration: 1.5s;
     -webkit-animation-duration: 1.5s;
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
     animation-timing-function: ease-in-out;
     -webkit-animation-timing-function: ease-in-out;
 }
 
 @keyframes slideRight {
     0% {
-        transform: translateX(-300%);
+        transform: translateX(-200%);
         opacity: 0;
     }
 
@@ -21,7 +23,7 @@
 
 @-webkit-keyframes slideRight {
     0% {
-        -webkit-transform: translateX(-150%);
+        -webkit-transform: translateX(-200%);
         opacity: 0;
     }
 
