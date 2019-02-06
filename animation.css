@@ -1,17 +1,15 @@
-h1 {
+.carousel-caption {
     animation-name: slideRight;
     -webkit-animation-name: slideRight;
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    animation-delay: 1s;
-    -webkit-animation-delay: 1s;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     -webkit-animation-timing-function: ease-in-out;
 }
 
 @keyframes slideRight {
     0% {
-        transform: translateX(-150%);
+        transform: translateX(-300%);
         opacity: 0;
     }
 
