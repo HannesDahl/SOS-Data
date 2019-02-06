@@ -99,42 +99,17 @@ html {
     letter-spacing: -.05rem;
 }
 
-/*Carousel*/
-.main-carousel {
-    margin-top: 26px;
-}
-
-.flickity-enabled:focus .flickity-viewport {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
-}
-
-.carousel-cell {
-    margin-right: 20px;
-}
-
-.carousel-cell img {
-    border-radius: 5px;
-}
-
-.flickity-page-dots .dot.is-selected {
-    background: white;
-}
-
-.flickity-page-dots {
-    bottom: 20px;
-}
-
-.flickity-page-dots .dot {
-    width: 12px;
-    height: 12px;
-    opacity: 1;
-    background: transparent;
-    border: 2px solid white;
-}
-
-.flickity-page-dots .dot.is-selected {
-    background: white;
+.carousel-caption {
+    display: flex !important;
+    justify-content: flex-end !important;
+    flex-direction: column !important;
+    text-align: left;
+    align-items: flex-start !important;
+    margin-bottom: 350px;
+    width: 960px;
+    animation-name: caption;
+    animation-delay: 1s;
+    animation-duration: 2s;
 }
 
 /* to-top-button
@@ -291,10 +266,14 @@ h3 {
     width: 1000px;
     text-align: center;
     background: #5cbeeb;
-    padding: 10px;
+    padding: 20px 10px;
     color: #fff;
     line-height: 1.7;
     border-radius: 10px;
+}
+
+form {
+    width: 350px;
 }
 
 .section ul {
