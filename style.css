@@ -72,7 +72,6 @@ html {
 .logo {
     padding-bottom: 18px;
     margin-left: 20px;
-
 }
 
 .logo a {
@@ -81,6 +80,21 @@ html {
 
 .logo a:hover {
     color: #555;
+}
+
+.logo i {
+    font-size: 3.7em;
+}
+
+@media (max-width: 400px) {
+    .logo i {
+        font-size: 2.7em;
+    }
+}
+
+.logo img {
+    max-width: 70%;
+    width: 400px;
 }
 
 /* facebook-logo */
@@ -356,5 +370,15 @@ form {
 @media (min-width: 62em) {
     .featurette-heading {
         margin-top: 7rem;
+    }
+}
+
+@media (max-width: 760px) {
+    #partners {
+        flex-direction: column;
+    }
+
+    #partners img {
+        margin: 20px 0;
     }
 }
