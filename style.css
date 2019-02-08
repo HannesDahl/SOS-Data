@@ -539,7 +539,7 @@ form {
         flex-direction: column;
         margin: 0 auto;
         margin-top: 30px;
-        width: 700px;
+        max-width: 700px;
         text-align: center;
         background: #5cbeeb;
         padding: 20px 10px;
