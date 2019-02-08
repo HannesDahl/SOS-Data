@@ -7,6 +7,7 @@
 body,
 html {
     scroll-behavior: smooth;
+    height: 100vh;
 }
 
 /* Navbar/buttons/Private,Company */
@@ -110,22 +111,59 @@ html {
     letter-spacing: -.05rem;
 }
 
-.carousel-caption {
-    display: flex !important;
-    justify-content: flex-end !important;
-    flex-direction: column !important;
-    text-align: left;
-    align-items: flex-start !important;
-    margin-bottom: 350px;
-    width: 960px;
-    animation-name: caption;
-    animation-delay: 1s;
-    animation-duration: 2s;
+.swiper-container {
+    width: 100%;
+    height: 100%;
 }
 
-.prevnext {
-    width: 40px;
-    height: 40px;
+.swiper-slide .title {
+    bottom: 20px;
+    left: 20px;
+    width: 400px;
+    float: left;
+    top: 50px;
+    position: absolute;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 3.2em;
+}
+
+.swiper-slide .text {
+    bottom: 20px;
+    left: 20px;
+    float: left;
+    top: 130px;
+    position: absolute;
+    width: 800px;
+    color: #FFFFFF;
+    font-size: 1.4em;
+}
+
+.swiper-slide img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.swiper-pagination-bullet-active {
+    background: #000 !important;
+}
+
+.swiper-button-prev {
+    background: url(Images/prew-arrow.png)
+}
+
+.swiper-button-next {
+    background: url(Images/next-arrow.png)
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
 }
 
 

@@ -10,9 +10,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
-    <link rel="stylesheet" href="path/to/swiper.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animation.css">
 </head>
@@ -96,50 +94,48 @@
 
     <!------CAROUSEL------>
 
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="Images/slide-1.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="">Vi är specialiserade på</h1>
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <!--<div style="background-image: url(Images/Repeat_Grid_5.png);" data-swiper-parallax="-90%"></div>-->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="Images/slide-1.png" alt="">
+                <div class="title" id="title_#">Vi är specialiserade på</div>
+                <div class="text" data-swiper-parallax="-100" style="transform: translate3d(0px, 0px, 0px);">
                     <p>Windows 2000, XP, Vista, Windows 7, Windows 8, Windows 10. Mac OS 7 till 10.x
                         Persondatorer, servrar, nätverk och säkerhet
                         Hårdvara och operativsystem
                         Nätverksfel, virusrensningar, säkerhets- och utskriftsproblem... </p>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="Images/slide-2.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Installation & konfiguration</h1>
+            <div class="swiper-slide">
+                <img src="Images/slide-2.png" alt="">
+                <div class="title" data-swiper-parallax="-300" style="transform: translate3d(0px, 0px, 0px);">Installation
+                    & konfiguration</div>
+                <div class="text" data-swiper-parallax="-100" style="transform: translate3d(0px, 0px, 0px);">
                     <p>Du har köpt en ny maskinvara och du har problem med installering / konfigurering ? Vi kan hjälpa
                         dig att ställa in din nätverk (skrivare, server, arbetsstation, router, modem etc... Våra
                         tjänster riktar sig mot både privatpersoner och företag.</p>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="Images/slide-3.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Övervakningskamera Smart Hem & Trygghet</h1>
+            <div class="swiper-slide">
+                <img src="Images/slide-3.png" alt="">
+                <div class="title" data-swiper-parallax="-300" style="transform: translate3d(0px, 0px, 0px);">Övervakningskamera
+                    Smart Hem & Trygghet</div>
+                <div class="text" data-swiper-parallax="-100" style="transform: translate3d(0px, 0px, 0px);">
                     <p>Håll koll på huset - med övervakningskamera. Att kunna titta till villan även när du inte där
                         kan kännas tryggt. Det blir också enkelt att hålla koll på mängden snö på -taket på stugan
                         eller se att allt ser lugnt ut hemma, när ni är på semester...</p>
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon prevnext" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon prevnext" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
     </div>
 
     <!-- text-info -->
@@ -312,8 +308,18 @@
     </script>
 
     <!-- scrip -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            speed: 1000,
+            parallax: true,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
 
     <script src="
             https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
