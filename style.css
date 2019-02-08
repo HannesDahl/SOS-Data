@@ -34,7 +34,7 @@ html {
 
 .nav-buttons {
     border-bottom: #eeeeee solid 0.06px;
-    margin-bottom: 15px;
+    margin: 0 auto;
     margin-left: 10px;
 }
 
@@ -58,8 +58,7 @@ html {
 }
 
 .language img {
-    margin-bottom: 9px;
-    margin-right: 3px;
+    margin-right: 5px;
 }
 
 .language:hover {
@@ -70,7 +69,7 @@ html {
 /* Logo */
 
 .logo {
-    padding-bottom: 18px;
+    /* padding-bottom: 18px; */
     margin-left: 20px;
 }
 
@@ -82,9 +81,7 @@ html {
     color: #555;
 }
 
-.logo i {
-    font-size: 3.7em;
-}
+
 
 @media (max-width: 400px) {
     .logo i {
@@ -98,9 +95,11 @@ html {
 }
 
 /* facebook-logo */
-.fa-facebook-f {
+.face1 {
     font-size: 75px;
 }
+
+
 
 /* Featurettes
 ------------------------- */
@@ -128,6 +127,7 @@ html {
     width: 40px;
     height: 40px;
 }
+
 
 /* to-top-button
 
@@ -352,7 +352,37 @@ form {
         margin-left: 57px;
     }
 
+    .ipad-p-info {
+        display: none;
+    }
+
+    .display-none {
+        display: none;
+    }
 }
+
+@media (min-width: 1050px) {
+
+    .display-none2 {
+        display: none;
+    }
+
+    .face2 {
+        font-size: 60px;
+    }
+
+
+}
+
+@media (max-width: 1049px) {
+
+    .display-none1 {
+        display: none;
+    }
+
+}
+
+
 
 @media (min-width: 40em) {
 
@@ -373,7 +403,7 @@ form {
     }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
     #partners {
         flex-direction: column;
     }
@@ -381,4 +411,38 @@ form {
     #partners img {
         margin: 20px 0;
     }
+
+    .nav-item {
+        padding-right: 0;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .fa-tools {
+        display: none;
+    }
+
+    .ipad-p-info {
+        background-color: #5cbeebs;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 700px;
+        text-align: center;
+        background: #5cbeeb;
+        padding: 20px 10px;
+        color: #333;
+        line-height: 1.7;
+        border-radius: 10px;
+    }
+
+    .order-md-1 {
+        display: flex;
+        justify-content: flex-start;
+    }
+
 }
