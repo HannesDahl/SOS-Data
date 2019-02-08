@@ -390,6 +390,10 @@ form {
     .display-none {
         display: none;
     }
+
+    .nav-buttons {
+        display: none;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -407,6 +411,8 @@ form {
     .swiper-container {
         height: 80%;
     }
+
+
 }
 
 @media (max-width: 1000px) {
