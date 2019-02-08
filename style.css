@@ -33,6 +33,12 @@ html {
     border-right: #eeeeee solid 0.06px;
 }
 
+.nav-buttons1 {
+    border-bottom: #eeeeee solid 0.06px;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
 .nav-buttons {
     border-bottom: #eeeeee solid 0.06px;
     margin: 0 auto;
@@ -384,10 +390,21 @@ form {
         display: none;
     }
 
-    .face2 {
-        font-size: 60px;
+}
+
+@media (max-width: 768px) {
+
+    .display-none3 {
+        display: none;
     }
 
+}
+
+@media (min-width: 768px) {
+
+    .display-non {
+        display: none;
+    }
 
 }
 
@@ -399,28 +416,24 @@ form {
 
 }
 
-
-
-@media (min-width: 40em) {
-
-    .carousel-caption p {
-        margin-bottom: 1.25rem;
-        font-size: 1.25rem;
-        line-height: 1.4;
+@media (max-width: 375px) {
+    .nav-buttons1 {
+        display: none;
     }
 
-    .featurette-heading {
-        font-size: 50px;
-    }
-}
 
-@media (min-width: 62em) {
-    .featurette-heading {
-        margin-top: 7rem;
+    .fi {
+        padding-right: 47px;
+
+    }
+
+    .logo imag {
+        display: flex;
+
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     #partners {
         flex-direction: column;
     }
