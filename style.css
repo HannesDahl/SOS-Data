@@ -34,6 +34,12 @@ html {
     border-right: #eeeeee solid 0.06px;
 }
 
+.nav-buttons1 {
+    border-bottom: #eeeeee solid 0.06px;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
 .nav-buttons {
     border-bottom: #eeeeee solid 0.06px;
     margin: 0 auto;
@@ -268,6 +274,66 @@ h3 {
 }
 
 /* CONTACT */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* ======= */
 
 #contact {
     display: flex;
@@ -295,6 +361,19 @@ h3 {
 
 #varför {
     list-style: none;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    width: 0 auto;
+    text-align: center;
+    background: #5cbeeb;
+    padding: 20px 10px;
+    color: #333;
+    line-height: 1.7;
+    border-radius: 10px;
 }
 
 .section {
@@ -389,7 +468,10 @@ form {
     .display-none {
         display: none;
     }
+
 }
+
+/* ======================= */
 
 @media (max-width: 1200px) {
     .swiper-slide .title {
@@ -406,7 +488,11 @@ form {
     .swiper-container {
         height: 80%;
     }
+
+
 }
+
+/* =========================== */
 
 @media (max-width: 1000px) {
     .swiper-container {
@@ -414,6 +500,7 @@ form {
     }
 }
 
+/* =========================== */
 @media (max-width: 768px) {
     .swiper-slide .title {
         font-size: 1.6em;
@@ -430,6 +517,7 @@ form {
 
 }
 
+/* =========================== */
 @media (max-width: 540px) {
     .swiper-slide .title {
         font-size: 1.4em;
@@ -458,6 +546,7 @@ form {
     }
 }
 
+/* =========================== */
 @media (max-width: 460px) {
     .swiper-slide .title {
         font-size: 1em;
@@ -467,26 +556,24 @@ form {
     }
 
     .swiper-slide .text {
-        font-size: .6em;
+        text-align: center;
+        font-size: 1em;
         width: 250px;
         top: 100px;
         left: 40px;
     }
 }
 
+/* =========================== */
 @media (min-width: 1050px) {
 
     .display-none2 {
         display: none;
     }
 
-    .face2 {
-        font-size: 60px;
-    }
-
-
 }
 
+/* =========================== */
 @media (max-width: 1049px) {
 
     .display-none1 {
@@ -495,28 +582,65 @@ form {
 
 }
 
-
-
-@media (min-width: 40em) {
-
-    .carousel-caption p {
-        margin-bottom: 1.25rem;
-        font-size: 1.25rem;
-        line-height: 1.4;
+/* =========================== */
+@media (max-width: 579px) {
+    .display-a {
+        display: none;
     }
 
-    .featurette-heading {
-        font-size: 50px;
+    .display-r {
+        display: block;
     }
 }
 
-@media (min-width: 62em) {
-    .featurette-heading {
-        margin-top: 7rem;
+@media (min-width: 579px) {
+    .display-d {
+        display: none;
+    }
+
+    .display-f {
+        display: block;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 375px) {
+    .display: ;
+
+}
+
+@media (max-width: 375px) {
+
+    .face1 {
+        display: none;
+    }
+
+
+
+    .fi {
+        padding-right: 47px;
+
+    }
+
+    .logo imag {
+        display: flex;
+
+    }
+
+    .face2 {
+        display: block;
+    }
+
+
+}
+
+/* =========================== */
+
+@media (max-width: 769px) {
+    .display-none3 {
+        display: none;
+    }
+
+
     #partners {
         flex-direction: column;
     }
@@ -556,6 +680,15 @@ form {
     .order-md-1 {
         display: flex;
         justify-content: flex-start;
+    }
+
+}
+
+/* =========================== */
+@media (min-width: 768px) {
+
+    .display-non {
+        display: none;
     }
 
 }
