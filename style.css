@@ -189,7 +189,7 @@ html {
     border-radius: 5px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    height: 180px;
+    height: 0 auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -661,22 +661,6 @@ form {
 
     .fa-tools {
         display: none;
-    }
-
-    .ipad-p-info {
-        background-color: #fff;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin: 0 auto;
-        margin-top: 30px;
-        max-width: 700px;
-        text-align: center;
-        background: #5cbeeb;
-        padding: 20px 10px;
-        color: #333;
-        line-height: 1.7;
-        border-radius: 10px;
     }
 
     .order-md-1 {
