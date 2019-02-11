@@ -364,8 +364,6 @@ html {
 }
 
 .section1 {
-    display: flex;
-    justify-content: center;
     margin: 100px auto;
     width: 0 auto;
     text-align: center;
@@ -374,6 +372,17 @@ html {
     color: #333;
     line-height: 1.7;
     border-radius: 10px;
+}
+
+.section1 .row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.section1 .row .column .card img {
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 .section {
@@ -603,18 +612,11 @@ form {
     }
 }
 
-@media (min-width: 375px) {
-    .display: ;
-
-}
-
 @media (max-width: 375px) {
 
     .face1 {
         display: none;
     }
-
-
 
     .fi {
         padding-right: 47px;
