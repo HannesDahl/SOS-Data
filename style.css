@@ -10,6 +10,25 @@ html {
     height: 100vh;
 }
 
+
+::-webkit-scrollbar {
+    width: 15px;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5cbeeb;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6f6f6f;
+}
+
 /* Navbar/buttons/Private,Company */
 
 .private-company {
@@ -330,6 +349,10 @@ html {
 
 .button:hover {
     background-color: #555;
+}
+
+.c2 {
+    display: none !important;
 }
 
 /* ======= */
