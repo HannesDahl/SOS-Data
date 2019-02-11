@@ -21,8 +21,8 @@
         <a href="index.html"> <button class="private-company pri"><i class="fas fa-user-secret" style="font-size:27px; margin-right:5px;"></i>Yksitysille</button></a>
         <a href="yritykset.html"> <button class="private-company"><i class="fas fa-building" style="font-size:25px; margin-right:5px;"></i>Yrityksille</button></a>
         <!-- language-buttons -->
-        <a href="../Boka.html"> <button class="language"><img src="../Images/se.png" alt="" width="25">Svenska</button></a>
-        <a href=""> <button class="language"><img src="../Images/fi.png" alt="" width="25">Suomi</button></a>
+        <a href="../Boka.html"> <button class="language"><img src="../Images/se.png" alt="" width="25">På Svenska</button></a>
+        <a href=""> <button class="language"><img src="../Images/fi.png" alt="" width="25">Suomeksi</button></a>
     </div>
 
     <!-- logo -->
@@ -107,13 +107,23 @@
             <div class="form-check">
                 <label>Valitse halutessasi :</label>
             </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Huolto paikanpäällä</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <input type="checkbox" aria-label="Radio button for following text input">
+                    </div>
+                </div>
+                <input type="text" class="form-control" id="foo" aria-label="Text input with radio button" value="Huolto paikanpäällä">
+                <script>document.getElementById('foo').disabled = true;</script>
             </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">Laitteen nouto</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <input type="checkbox" aria-label="Radio button for following text input">
+                    </div>
+                </div>
+                <input type="text" class="form-control" id="fo" aria-label="Text input with radio button" value="Laitteen nouto">
+                <script>document.getElementById('fo').disabled = true;</script>
             </div>
             <div class="form-check mt-4">
                 <label>Toivottu päivämäärä huollolle</label>
