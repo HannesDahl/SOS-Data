@@ -124,17 +124,16 @@ html {
 
 .swiper-container {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .swiper-slide .title {
     bottom: 20px;
     left: 20px;
-    width: 400px;
+    width: 100%;
     float: left;
     top: 50px;
     position: absolute;
-    width: 100%;
     color: #FFFFFF;
     font-size: 3.2em;
 }
@@ -492,20 +491,6 @@ form {
         font-size: 1em;
         width: 650px;
         top: 70px;
-    }
-
-    .swiper-container {
-        height: 80%;
-    }
-
-
-}
-
-/* =========================== */
-
-@media (max-width: 1000px) {
-    .swiper-container {
-        height: 50%;
     }
 }
 
