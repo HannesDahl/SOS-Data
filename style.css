@@ -509,6 +509,9 @@ form {
         display: block;
     }
 
+    .swiper-container {
+        height: 35%;
+    }
 }
 
 /* =========================== */
@@ -528,7 +531,7 @@ form {
     }
 
     .swiper-container {
-        height: 40%;
+        height: 50%;
     }
 
     .c1 {
