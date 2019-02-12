@@ -472,10 +472,6 @@ form {
     max-width: 200px;
 }
 
-.containerr {
-    display: none;
-}
-
 @media only screen and (max-device-width: 1024px) {
 
     .bgimg-1,
@@ -545,6 +541,10 @@ form {
     .featurette img {
         max-width: 240px;
         max-height: 240px;
+    }
+
+    #partners {
+        flex-direction: column;
     }
 }
 
@@ -652,15 +652,14 @@ form {
         display: none;
     }
 
-
-    #partners {
-        display: none;
+    .marketing {
+        text-align: center;
     }
 
-    .containerr {
-        margin-top: 50px;
+    .marketing .row .col-md-5 {
         display: flex;
-        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     #partners img {
@@ -689,6 +688,24 @@ form {
 @media (min-width: 768px) {
 
     .display-non {
+        display: none;
+    }
+}
+
+@media (max-width: 340px) {
+    .swiper-container {
+        height: 65vh;
+    }
+}
+
+@media (max-width: 321px) {
+    html {
+        background: url("Images/stop-1013732_1920.jpg") center center;
+        background-size: 300px;
+        background-repeat: no-repeat;
+    }
+
+    body {
         display: none;
     }
 }
