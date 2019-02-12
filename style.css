@@ -74,7 +74,7 @@ html {
     background-color: transparent;
     border: none;
     color: black;
-    padding: 16px 32px 5px 17px;
+    /* padding: 16px 32px 5px 17px; */
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
@@ -482,27 +482,6 @@ form {
   -------------------------------------------------- */
 @media (min-width: 1270px) {
 
-    #contact {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        background: url(Images/writing-pad-3202747_1920.jpg);
-        background-size: cover;
-        height: 100vh;
-        line-height: 2;
-    }
-
-    #contact ul {
-        list-style: none;
-        font-size: 0.9em;
-        margin-left: 57px;
-    }
-
-    .ipad-p-info {
-        display: none;
-    }
-
     .display-none {
         display: none;
     }
@@ -615,7 +594,15 @@ form {
 }
 
 /* =========================== */
-@media (max-width: 579px) {
+@media (max-width: 635px) {
+
+    .lan-cl {
+        display: block;
+        width: 40px;
+        float: right;
+        padding: 0;
+    }
+
     .display-a {
         display: none;
     }
@@ -625,7 +612,7 @@ form {
     }
 }
 
-@media (min-width: 579px) {
+@media (min-width: 636px) {
     .display-d {
         display: none;
     }
