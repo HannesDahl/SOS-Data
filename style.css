@@ -92,13 +92,13 @@ html {
     opacity: 0.6
 }
 
+.lan-cl {
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* Logo */
-
-.logo {
-    /* padding-bottom: 18px; */
-    margin-left: 20px;
-}
 
 .logo a {
     color: #51a5cc;
@@ -636,18 +636,19 @@ form {
 
 @media (max-width: 375px) {
 
+    .lan-cl {
+
+        width: 40px;
+        float: right;
+
+    }
+
     .face1 {
         display: none;
     }
 
-    .fi {
-        padding-right: 47px;
-
-    }
-
-    .logo imag {
-        display: flex;
-
+    .language {
+        padding: 0;
     }
 
     .face2 {
