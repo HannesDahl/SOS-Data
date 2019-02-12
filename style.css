@@ -506,7 +506,6 @@ form {
     .display-none {
         display: none;
     }
-
 }
 
 /* ======================= */
@@ -521,6 +520,20 @@ form {
         font-size: 1em;
         width: 650px;
         top: 70px;
+    }
+
+    .swiper-container {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 900px) {
+    .c1 {
+        display: none;
+    }
+
+    .c2 {
+        display: block !important;
     }
 }
 
@@ -540,41 +553,12 @@ form {
     }
 
     .swiper-container {
-        height: 35%;
+        height: 30vh;
     }
 
     .featurette img {
         max-width: 240px;
         max-height: 240px;
-    }
-}
-
-/* =========================== */
-@media (max-width: 540px) {
-    .swiper-slide .title {
-        font-size: 1.4em;
-        top: 20px;
-        left: 50px;
-        width: 500px;
-    }
-
-    .swiper-slide .text {
-        font-size: .6em;
-        width: 350px;
-        top: 100px;
-        left: 50px;
-    }
-
-    .swiper-container {
-        height: 50%;
-    }
-
-    .c1 {
-        display: none;
-    }
-
-    .c2 {
-        display: block !important;
     }
 }
 
@@ -594,6 +578,10 @@ form {
         top: 100px;
         left: 40px;
     }
+
+    .swiper-container {
+        height: 30vh;
+    }
 }
 
 /* =========================== */
@@ -607,7 +595,6 @@ form {
 
 /* =========================== */
 @media (max-width: 1049px) {
-
     .display-none1 {
         display: none;
     }
