@@ -7,7 +7,6 @@
 body,
 html {
     scroll-behavior: smooth;
-    height: 100vh;
 }
 
 
@@ -30,6 +29,12 @@ html {
 }
 
 /* Navbar/buttons/Private,Company */
+
+.navbar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
 
 .private-company {
     background-color: transparent;
@@ -118,7 +123,7 @@ html {
 }
 
 .logo img {
-    max-width: 100%;
+    max-width: 90%;
     width: 300px;
     padding-left: 0;
 }
@@ -217,7 +222,6 @@ html {
     border-radius: 5px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    height: 0 auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -627,17 +631,12 @@ form {
 
     .lan-cl {
         display: block;
-        width: 40px;
         float: right;
         padding: 0;
     }
 
     .face1 {
         display: none;
-    }
-
-    .language {
-        padding: 0;
     }
 
     .face2 {
@@ -698,7 +697,7 @@ form {
     }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 300px) {
     html {
         background: url("Images/stop-1013732_1920.jpg") center center;
         background-size: 300px;
