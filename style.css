@@ -57,6 +57,9 @@ html {
     border-bottom: #eeeeee solid 0.06px;
     margin: 0 auto;
     margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-buttons {
@@ -642,8 +645,6 @@ form {
     .face2 {
         display: block;
     }
-
-
 }
 
 /* =========================== */
@@ -692,5 +693,4 @@ form {
     .display-non {
         display: none;
     }
-
 }
