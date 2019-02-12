@@ -137,6 +137,11 @@ html {
     letter-spacing: -.05rem;
 }
 
+.featurette {
+    display: flex;
+    align-items: center;
+}
+
 .featurette img {
     max-width: 70%;
 }
