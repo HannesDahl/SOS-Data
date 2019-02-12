@@ -146,9 +146,12 @@ html {
     max-width: 70%;
 }
 
+/* CAROUSEL
+------------------------- */
+
 .swiper-container {
     width: 100%;
-    height: 100vh;
+    height: 60vh;
 }
 
 .swiper-slide .title {
@@ -181,8 +184,8 @@ html {
 }
 
 /* to-top-button
-
     ------------------------- */
+
 #myBtn {
     display: none;
     position: fixed;
@@ -391,8 +394,7 @@ html {
 }
 
 .section1 {
-    margin: 100px auto;
-    width: 0 auto;
+    width: 100%;
     text-align: center;
     background: #5cbeeb;
     padding: 20px 10px;
@@ -404,6 +406,7 @@ html {
 .section1 .row {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .section1 .row .column .card img {
