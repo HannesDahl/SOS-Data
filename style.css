@@ -165,7 +165,7 @@ html {
     left: 20px;
     width: 100%;
     float: left;
-    top: 50px;
+    top: 30px;
     position: absolute;
     color: #FFFFFF;
     font-size: 3.2em;
@@ -569,7 +569,7 @@ form {
     }
 
     .swiper-container {
-        height: 40vh;
+        height: 50vh;
     }
 }
 
@@ -698,8 +698,8 @@ form {
 
 @media (max-width: 300px) {
     html {
-        background: url("Images/stop-1013732_1920.jpg") center center;
-        background-size: 300px;
+        background: url("Images/width\ not\ supported.png");
+        height: 100vh;
         background-repeat: no-repeat;
     }
 
