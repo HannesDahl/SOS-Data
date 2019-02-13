@@ -247,56 +247,6 @@ html {
     margin-top: 50px;
 }
 
-/* PARALLAX SCROLLING
-==================================
-======================================== */
-
-
-.bgimg-1,
-.bgimg-2,
-.bgimg-3 {
-    position: relative;
-    opacity: 0.65;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-.bgimg-1 {
-    background-image: url("Images/tie-690084_1920\(1\).jpg");
-    min-height: 100%;
-}
-
-.bgimg-2 {
-    background-image: url("Images/business-3152586_1920.jpg");
-    min-height: 400px;
-}
-
-.bgimg-3 {
-    background-image: url("Images/writing-1149962_1920.jpg");
-    min-height: 400px;
-}
-
-.caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-}
-
-.caption span.border {
-    background-color: #5cbeeb;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-    border-radius: 5px;
-}
-
 h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -448,6 +398,37 @@ form {
 
 .section p {
     max-width: 100%;
+}
+
+#företag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+    color: #fff;
+    height: 60vh;
+}
+
+#företag h3 {
+    color: #fff;
+    font-size: 4em;
+    margin-bottom: 50px;
+}
+
+#företag p {
+    font-size: 1.3em;
+}
+
+#fsection {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0;
+}
+
+.card-text {
+    border-top: .1px solid rgb(107, 107, 107);
+    padding-top: 20px;
 }
 
 /*---FOOTER---*/
