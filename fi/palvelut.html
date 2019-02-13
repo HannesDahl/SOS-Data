@@ -16,19 +16,43 @@
 <body>
 
     <!-- navbar/buttons -->
-    <div class="nav-buttons">
-        <a href="index.html"> <button class="private-company pri"><i class="fas fa-user-secret" style="font-size:27px; margin-right:5px;"></i>Yksitysille</button></a>
-        <a href="yritykset.html"> <button class="private-company"><i class="fas fa-building" style="font-size:25px; margin-right:5px;"></i>Yrityksille</button></a>
+    <div class="nav-buttons1 display-a">
+        <a href="index.html"> <button class="private-company pri"><i class="fas fa-user-secret" style="font-size:27px; margin-right:5px;"></i>yksityisille</button></a>
+        <a href="yritykset.html"> <button class="private-company pri"><i class="fas fa-building" style="font-size:25px; margin-right:5px;"></i>Yrityksille</button></a>
+
         <!-- language-buttons -->
-        <a href="../persentation.html"> <button class="language"><img src="../Images/se.png" alt="" width="25">På
+        <a href="../Tjänster.html"> <button class="language pri"><img src="../images/se.png" alt="" width="25px">På
                 Svenska</button></a>
-        <a href=""> <button class="language"><img src="../Images/fi.png" alt="" width="25">Suomeksi</button></a>
+        <a href="palvelut.html"> <button class="language pri"><img src="../images/fi.png" alt="" width="25px">Suomeksi</button></a>
     </div>
 
+    <!-- =============================== -->
+
+    <!-- navbar/buttons/2 -->
+    <div class="nav-buttons display-none1 display-none2 display-r">
+        <div class="container">
+            <div class="row language-buttons">
+                <div class="col"> <a href="index.html"> <button class="private-company pri"><i class="fas fa-user-secret"
+                                style="font-size:27px; margin-right:5px;"></i>yksityisille</button></a></div>
+                <div class="col"> <a href="yritykset.html"> <button class="private-company pri"><i class="fas fa-building"
+                                style="font-size:25px; margin-right:5px;"></i>Yrityksille</button></a></div>
+
+            </div>
+        </div>
+    </div>
+
+
     <!-- logo -->
-    <div class="logo py-2">
-        <a href="index.html"> <img src="../Images/SOSDATA-LOGO.png" alt=""></a>
-        <a target="_blank" href="https://www.facebook.com/SosData/"><i class="fab fa-facebook-f face1" style="float:right; margin-right: 20px;"></i></a>
+    <div class="logo py-2 px-4">
+        <a href="index.html"> <img src="../images/SOSDATA-LOGO.png" alt=""></a>
+        <a target="_blank" href="https://www.facebook.com/SosData/"><i class="fab fa-facebook-f face1 display-a" style="float:right; margin-right: 20px;"></i></a>
+
+        <!-- language-buttons/2 -->
+        <div class="lan-cl display-none1 display-none2">
+            <a href="../Tjänster.html"> <button class="language swe"><img src="../images/se.png" alt="" width="20px">
+                </button></a>
+            <a href="palvelut.html"> <button class="language fi"><img src="../images/fi.png" alt="" width="20px"></button></a>
+        </div>
     </div>
 
     <!-- navbar/manu -->
@@ -54,8 +78,7 @@
                         <a class="nav-link" href="palvelut.html">Palvelut</a>
                     </li>
                     <li class="nav-item">
-                        <a target="_blank" class="nav-link" href="http://produkter.sosdata.fi/">Tuotteet</a>
-                    </li>
+                        <a target="_blank" class="nav-link" href="http://produkter.sosdata.fi/">Tuotteet</a> </li>
                     <li class="nav-item">
                         <a class="nav-link" href="miksi-sos.html">Miksi SOS Data ?</a>
                     </li>
@@ -66,7 +89,7 @@
                         <a class="nav-link" href="hyvää-tietää.html">Hyvä tietää</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="ota-yhteyttä.html">Yhteistyökumppanit</a>
+                        <a class="nav-link" href="ota-yhteyttä.html">ota-yhteyttä</a>
                     </li>
 
                 </ul>
@@ -82,13 +105,14 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
             <ul class="navbar-nav">
-                <a class="nav-link" href="index.html">Koti<span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Koti<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="esittely.html">Esittely</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="palvelut.html">Palvelut</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="palvelut.html">Palvelut</a>
                 </li>
                 <li class="nav-item">
                     <a target="_blank" class="nav-link" href="http://produkter.sosdata.fi/">Tuotteet</a>
@@ -103,12 +127,14 @@
                     <a class="nav-link" href="hyvää-tietää.html">Hyvä tietää</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="ota-yhteyttä.html">Yhteistyökumppanit</a>
+                    <a class="nav-link" href="ota-yhteyttä.html">ota-yhteyttä</a>
                 </li>
 
             </ul>
         </div>
     </nav>
+
+
     <div class="section">
 
         <h2>Palvelut</h2>
@@ -123,7 +149,7 @@
             Ratkaisemme usein asiakkaiden ongelmat nopeammin kuin muut tukiyritykset.
 
             Olemme pelastaneet monet perhevalokuvat ja tärkeät tiedostot hajonneilta kovalevyiltä.</p>
-        <p>Olemme erikoistuneet:</p>
+        <p><strong>Olemme erikoistuneet:</strong></p>
 
         <ul>
             <li>Windows 2000, XP, Vista, Windows 7, Windows 8, Windows 10. Mac OS 7 till 10.x</li>
@@ -184,20 +210,7 @@
             <img class="footer-img" src="../Images/radicenter_black_logo.png.jpeg">
         </div>
 
-        <div class="containerr">
-            <div class="row">
-                <div class="col">
-                    <div id="partners1 display-r d-flex justify-content-center">
-                        <img class="footer-img" src="../Images/BA_Logo_GoldResellerDownload.png">
-                        <img class="footer-img" src="../Images/microsoft-logo-hd-26.png">
-                    </div>
-                    <div class="col">
-                        <img class="footer-img" src="../Images/jnt-logo-1.jpg">
-                        <img class="footer-img" src="../Images/radicenter_black_logo.png.jpeg">
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </footer>
 
 

@@ -61,7 +61,6 @@ html {
 .nav-buttons1 {
     border-bottom: #eeeeee solid 0.06px;
     margin: 0 auto;
-    margin-left: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
